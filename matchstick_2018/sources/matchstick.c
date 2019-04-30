@@ -17,7 +17,7 @@ int game_run(match_stock_t *map)
         draw_map(map);
         if (map->total == 0) {
             LOSER;
-            return (0);
+            return 0;
         }
         BREAK;
         B_TRN;
@@ -33,7 +33,7 @@ int game_run(match_stock_t *map)
 
 void gene_map(match_stock_t *map)
 {
-    int  nb_st = 1;
+    int nb_st = 1;
 
     map->total = 0;
     for (size_t i = 0; i < map->size; i++, nb_st += 2) {
@@ -65,5 +65,6 @@ int main(int ac, char **av)
     gene_map(&map);
     draw_map(&map);
     game_run(&map);
+    free(map.stik);
     return 0;
 }

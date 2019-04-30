@@ -14,9 +14,12 @@ int my_getnbr(char const *str)
     for (size_t i = 0; str[i] != '\0'; i++)
         if (str[i] < '0' || str[i] > '9')
             return -1;
+
     if (*str == '-')
-        return -1;
-    for (; *str; str++, nbr *= 10)
+        return (-1);
+    for (; *str; str++) {
+        nbr *= 10;
         nbr  = (*str - 48) + nbr;
+    }
     return nbr;
 }
