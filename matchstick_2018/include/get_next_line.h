@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2018
 ** GET_NEXT_LINE
 ** File description:
-** macro
+** Macro for get_next_line fonction
 */
 
 #ifndef READ_SIZE
@@ -10,6 +10,9 @@
 
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
 #include <fcntl.h>
 
 typedef struct waste_bin_s
@@ -28,4 +31,4 @@ typedef struct trash_can_s
 
 char *get_next_line(const int fd);
 
-#endif
+#endif /* READ_SIZE */

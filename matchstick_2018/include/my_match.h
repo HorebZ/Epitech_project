@@ -8,10 +8,15 @@
 #ifndef _MY_MATCH__
 #define _MY_MATCH__
 
+// == > INLUDE LIB.C
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 
+// == > PERSONNAL_LIB
+#include "get_next_line.h"
+
+// == > MESSAGE_MACRO
 #define BREAK write(1, "\n", 1)
 #define P_TRN write(1, "Your turn:\n", 11)
 #define PLINE write(1, "Line: ", 6)
@@ -38,13 +43,17 @@ typedef struct match_stock_s
     int  total;
 } match_stock_t;
 
-char *get_nxt_line(int fd);
+// == > DRAW_MAP.C
 void  draw_map(match_stock_t *map);
+
+// == > ROUND.C
 void  info_rnd(match_stock_t *map, char *l, char *m);
 void  aiai_trn(match_stock_t *map);
 int   play_trn(match_stock_t *map);
 int   line_anl(match_stock_t *map, char *l);
 int   stik_anl(match_stock_t *map, char *l, char *m);
+
+// ==> MY_LIB
 int   my_getnbr(char const *str);
 int   my_strlen(char const *str);
 void  my_putnbr(int nb);

@@ -8,7 +8,7 @@
 NAME	=	matchstick
 
 SRC	=	sources/draw_map.c	\
-		sources/gtl.c		\
+		sources/get_next_line.c	\
 		sources/round.c		\
 		sources/my_putnbr.c	\
 		sources/my_getnbr.c	\
