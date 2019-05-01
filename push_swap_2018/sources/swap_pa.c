@@ -5,9 +5,7 @@
 ** swap_pa
 */
 
-#include <unistd.h>
-#include <stdlib.h>
-#include "my.h"
+#include "my_swap.h"
 
 void swap_pa(para_t *mem)
 {

@@ -20,5 +20,5 @@ int my_getnbr(char const *str)
     }
     if (neg)
         nbr *= -1;
-    return (nbr);
+    return nbr;
 }

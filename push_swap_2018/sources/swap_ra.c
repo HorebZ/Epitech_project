@@ -2,12 +2,10 @@
 ** EPITECH PROJECT, 2018
 ** SWAP_RA
 ** File description:
-** qsdfjklsdfghjklsdghjklFUCK BTTF
+** ra
 */
 
-#include <unistd.h>
-#include <stdlib.h>
-#include "my.h"
+#include "my_swap.h"
 
 list_t *swap_ra(list_t *l_a)
 {
@@ -24,7 +22,7 @@ list_t *swap_ra(list_t *l_a)
             new = alternate_node(new, tmp->nbr);
         }
         new = alternate_node(new, tmp_value);
-        return (new);
+        return new;
     }
-    return (l_a);
+    return l_a;
 }

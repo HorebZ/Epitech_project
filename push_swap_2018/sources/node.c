@@ -5,8 +5,7 @@
 ** create node for list
 */
 
-#include <stdlib.h>
-#include "my.h"
+#include "my_swap.h"
 
 list_t *my_node(list_t *l, char *str)
 {
@@ -16,10 +15,10 @@ list_t *my_node(list_t *l, char *str)
     lis->nbr = my_getnbr(str);
     lis->nxt = NULL;
     if (tmp == NULL)
-        return (lis);
+        return lis;
     else {
         for (; tmp->nxt != NULL; tmp = tmp->nxt);
         tmp->nxt = lis;
     }
-    return (l);
+    return l;
 }

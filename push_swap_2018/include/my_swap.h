@@ -1,12 +1,15 @@
 /*
 ** EPITECH PROJECT, 2018
-** MY
+** MY_SWAP
 ** File description:
-** MY
+** Macro for my_swap
 */
 
-#ifndef MY_H
-#define MY_H
+#ifndef _MY_SWAP__
+#define _MY_SWAP__
+
+#include <stdlib.h>
+#include <unistd.h>
 
 typedef struct para
 {
@@ -30,4 +33,4 @@ list_t *swap_pb(list_t *l_a);
 void    swap_pa(para_t *mem);
 int     my_getnbr(char const *str);
 
-#endif
+#endif /* _MY_SWAP__ */

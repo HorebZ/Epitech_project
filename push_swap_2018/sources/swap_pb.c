@@ -5,9 +5,7 @@
 ** push_swap
 */
 
-#include <stdlib.h>
-#include <unistd.h>
-#include "my.h"
+#include "my_swap.h"
 
 list_t *swap_pb(list_t *l_a)
 {
@@ -20,5 +18,5 @@ list_t *swap_pb(list_t *l_a)
         new = alternate_node(new, tmp->nbr);
     new = alternate_node(new, tmp->nbr);
     write(1, "pb ", 3);
-    return (new);
+    return new;
 }
