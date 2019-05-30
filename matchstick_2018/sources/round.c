@@ -37,8 +37,7 @@ int stik_anl(match_stock_t *map, char *l, char *m)
     } else if (my_getnbr(m) > map->stik[my_getnbr(l) - 1]) {
         ERR_R;
         return -1;
-    }
-    return 0;
+    } return 0;
 }
 
 int line_anl(match_stock_t *map, char *l)
@@ -49,8 +48,7 @@ int line_anl(match_stock_t *map, char *l)
     } else if (my_getnbr(l) == 0 || my_getnbr(l) > map->size) {
         ERR_L;
         return -1;
-    }
-    return 0;
+    } return 0;
 }
 
 void aiai_trn(match_stock_t *map)
@@ -70,24 +68,26 @@ void aiai_trn(match_stock_t *map)
     map->total--;
 }
 
-int play_trn(match_stock_t *map)
+int play_trn(match_stock_t *map, char *l, char*m)
 {
-    char *l = NULL;
-    char *m = NULL;
-
     PLINE;
-    l = get_next_line(0);
-    while (line_anl(map, l) == -1) {
+    if ((l = get_next_line(0)) == NULL) {
+        free(l);
+        return -2;
+    } while (line_anl(map, l) == -1) {
         free(l);
         PLINE;
-        l = get_next_line(0);
-    }
-    PMATC;
-    m = get_next_line(0);
-    while (stik_anl(map, l, m) == -1){
+        if ((l = get_next_line(0)) == NULL) {
+            free(l);
+            return -2;
+        }
+    } PMATC;
+    if ((m = get_next_line(0)) == NULL) {
+        free(m);
+        return -2;
+    } while (stik_anl(map, l, m) == -1) {
         free(m);
         return -1;
-    }
-    info_rnd(map, l, m);
+    } info_rnd(map, l, m);
     return 1;
 }

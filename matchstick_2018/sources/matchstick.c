@@ -13,13 +13,14 @@ int game_run(match_stock_t *map)
         BREAK;
         P_TRN;
         while (good_job == -1)
-            good_job = play_trn(map);
+            good_job = play_trn(map, NULL, NULL);
+        if (good_job == -2)
+            return 0;
         draw_map(map);
         if (map->total == 0) {
             LOSER;
             return 0;
-        }
-        BREAK;
+        } BREAK;
         B_TRN;
         aiai_trn(map);
         draw_map(map);
@@ -27,8 +28,7 @@ int game_run(match_stock_t *map)
             WINER;
             return 0;
         }
-    }
-    return 0;
+    } return 0;
 }
 
 void gene_map(match_stock_t *map)
@@ -39,8 +39,7 @@ void gene_map(match_stock_t *map)
     for (size_t i = 0; i < map->size; i++, nb_st += 2) {
         map->stik[i] = nb_st;
         map->total  += nb_st;
-    }
-    map->lnth = nb_st;
+    } map->lnth = nb_st;
 }
 
 int argv_err(int ac, char **av)

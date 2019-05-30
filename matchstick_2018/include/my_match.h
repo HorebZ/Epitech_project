@@ -49,7 +49,7 @@ void  draw_map(match_stock_t *map);
 // == > ROUND.C
 void  info_rnd(match_stock_t *map, char *l, char *m);
 void  aiai_trn(match_stock_t *map);
-int   play_trn(match_stock_t *map);
+int   play_trn(match_stock_t *map, char *l, char *m);
 int   line_anl(match_stock_t *map, char *l);
 int   stik_anl(match_stock_t *map, char *l, char *m);
 
