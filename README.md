@@ -29,6 +29,7 @@
 |<img src="https://www.flaticon.com/svg/static/icons/svg/3522/3522283.svg" width="15" /> | [push_swap](https://github.com/HorebParraud/push_swap) | **B1 - C Programming** | Fancy List Sorting |
 |<img src="https://www.flaticon.com/svg/static/icons/svg/3522/3522283.svg" width="15" /> | [42sh](https://github.com/HorebParraud/42sh) | **B2 - Shell Programming** | man tcsh |
 |<img src="https://www.flaticon.com/svg/static/icons/svg/3522/3522283.svg" width="15" /> | [Need4Stek](https://github.com/HorebParraud/Need4Stek) | **B2 - Artificial Intelligence** | Autonomous car concept |
+|<img src="https://www.flaticon.com/svg/static/icons/svg/919/919853.svg" width="15" /> | [Popeye](https://github.com/HorebParraud/Popeye) | **B2 - DevOps** | Set sail for the amazing world of containers |
 
 <!--USEFULL LINKS-->
 ##
