@@ -14,7 +14,7 @@
   </a>
 
   <p align="center">
-    EPITECH project - List of Repositorie
+    EPITECH project - List of Repositories
   </p>
 </p>
 
