@@ -26,10 +26,14 @@
 |   |   Project Name  |   Module    | Details |
 | :-:  |   -----   |   :------:    | :-: |
 |<img src="https://www.flaticon.com/svg/static/icons/svg/1822/1822899.svg" width="15" /> | [101pong](https://github.com/HorebParraud/101pong) | **B1 - Mathematics** | Vectors and Video Games |
+|<img src="https://www.flaticon.com/svg/static/icons/svg/1822/1822899.svg" width="15" /> | [105torus](https://github.com/HorebParraud/105torus) | **B1 - Mathematics** | Mathematics of the donut |
 |<img src="https://www.flaticon.com/svg/static/icons/svg/3522/3522283.svg" width="15" /> | [push_swap](https://github.com/HorebParraud/push_swap) | **B1 - C Programming** | Fancy List Sorting |
 |<img src="https://www.flaticon.com/svg/static/icons/svg/3522/3522283.svg" width="15" /> | [42sh](https://github.com/HorebParraud/42sh) | **B2 - Shell Programming** | man tcsh |
+|<img src="https://www.flaticon.com/svg/static/icons/svg/1822/1822899.svg" width="15" /> | [110borwein](https://github.com/HorebParraud/110borwein) | **B2 - Mathematics** | Saving years of calculations... |
 |<img src="https://www.flaticon.com/svg/static/icons/svg/3522/3522283.svg" width="15" /> | [Need4Stek](https://github.com/HorebParraud/Need4Stek) | **B2 - Artificial Intelligence** | Autonomous car concept |
-|<img src="https://www.flaticon.com/svg/static/icons/svg/919/919853.svg" width="15" /> | [Popeye](https://github.com/HorebParraud/Popeye) | **B2 - DevOps** | Set sail for the amazing world of containers |
+|<img src="https://www.flaticon.com/svg/static/icons/svg/1822/1822899.svg" width="15" /> | [201unsold](https://github.com/HorebParraud/201unsold) | **B4 - Mathematics** | Statistics for Selling Suit Stock |
+|<img src="https://www.flaticon.com/svg/static/icons/svg/1822/1822899.svg" width="15" /> | [205IQ](https://github.com/HorebParraud/205IQ) | **B4 - Mathematics** | Normativity and Normal Distribution |
+|<img src="https://www.flaticon.com/svg/static/icons/svg/919/919853.svg" width="15" /> | [Popeye](https://github.com/HorebParraud/Popeye) | **B5 - DevOps** | Set sail for the amazing world of containers |
 
 <!--USEFULL LINKS-->
 ##
