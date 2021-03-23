@@ -20,7 +20,7 @@
 
 <!-- IMPORTANT -->
 ## Important!
-**If you are seeing this repository, please just star it! It will not take much time! :)**
+**If you are seeing this repository, please just ⭐ it! It will not take much time! :)**
 
 ## Project
 |   |   Project Name  |   Module    | Details |
